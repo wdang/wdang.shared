@@ -1,0 +1,20 @@
+{
+  "name": "@wdang/shared",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "Commonly used code across all packages",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdang/wdang.shared.git"
+  },
+  "author": "William Dang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdang/wdang.shared/issues"
+  },
+  "homepage": "https://github.com/wdang/wdang.shared#readme"
+}
