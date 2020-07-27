@@ -48,8 +48,12 @@ function getJSON(url) {
         req.open('GET', url);
         req.onload = function() {
             if (req.status == 200) {
-                let data = JSON.parse(req.responseText);
-                resolve(data);
+                let text = req.responseText;
+                try {
+                    resolve(JSON.parse(text));
+                } catch e {
+                    console.warn("Failed trying to parse", text);
+                }
             } else {
                 reject(new Error(req.statusText));
             }
