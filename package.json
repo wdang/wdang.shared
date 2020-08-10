@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type":"module",
   "description": "Commonly used code across all packages",
-  "main": "src/main.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
