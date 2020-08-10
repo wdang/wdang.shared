@@ -1,2 +1,2 @@
 "use strict";
-export * from '.src/net.js';
+export * from './src/net.js';
