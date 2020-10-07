@@ -2,7 +2,7 @@
  **
  ** Takes an array of strings and returns a function that
  ** returns suggested autocompletion items when given a string.
- ** The returned results are sorted by prefix then  alphabetical
+ ** The returned results are sorted by prefix then alphabetized
  **
  ** Case-insensitive
  */
